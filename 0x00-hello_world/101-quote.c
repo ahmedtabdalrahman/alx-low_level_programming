@@ -1,11 +1,11 @@
 #include <unistd.h>
 
 /**
- * main entry point
+ * main - entry point
  *
- * description: prints to the standard error
+ * Description: prints to the standard error
  *
- * Return 1 (ERROR)
+ * Return: always 1 (ERROR)
  */
 int main(void)
 {
