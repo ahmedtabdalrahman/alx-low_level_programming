@@ -20,7 +20,7 @@ int main(void)
 			{
 				putchar(num2);
 				putchar(num1);
-				if (num2 != 56 || n != 57)
+				if (num2 != 56 || num1 != 57)
 				{
 					putchar(',');
 					putchar(' ');
