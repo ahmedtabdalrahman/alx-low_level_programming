@@ -4,9 +4,11 @@
  * main - entry point
  *
  * Description: The “Fizz-Buzz test”
+ *
+ * Return - always 0 (success)
  */
 
-void main(void)
+int main(void)
 {
 	int i;
 
@@ -22,4 +24,5 @@ void main(void)
 			printf("%d ", i);
 	}
 	_putchar('\n');
+	return (0);
 }
