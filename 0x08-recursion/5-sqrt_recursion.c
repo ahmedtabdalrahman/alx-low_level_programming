@@ -7,18 +7,27 @@
  *
  * Return: the natural square root of a number
  */
-
+int sqrt(int n, int i); 
 int _sqrt_recursion(int n)
 {
-	int i = 1;
+	return (sqrt(n, 1));
+}
 
+/**
+ * sqrt - prints the natural square root of a number
+ *
+ * @n: function input
+ * @i: function input
+ *
+ * Return: the natural square root of a number
+ */
+
+int sqrt(int n, int i)
+{
 	if (i * i == n)
-		return(i);
+		return (i);
 	else if (i * i < n)
-	{
-		i++;
-		return (_sqrt_recursion(n));
-	}
+		return (sqrt(n, i + 1));
 	else
 		return (-1);
 }
