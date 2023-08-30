@@ -4,10 +4,11 @@
  * _sqrt_recursion - prints the natural square root of a number
  *
  * @n: function input
+ * @i: function input
  *
  * Return: the natural square root of a number
  */
-int _sqrt(int n, int i); 
+int _sqrt(int n, int i);
 int _sqrt_recursion(int n)
 {
 	return (_sqrt(n, 1));
