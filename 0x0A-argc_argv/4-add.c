@@ -10,7 +10,7 @@
  * Return: 0
  */
 
-int main(char argc, char *argv[])
+int main(int argc, char *argv[])
 {
 	int i, sum = 0;
 	char *s;
