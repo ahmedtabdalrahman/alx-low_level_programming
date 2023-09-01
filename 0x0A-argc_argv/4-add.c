@@ -15,7 +15,7 @@ int main(int argc, char *argv[])
 	int i, sum = 0;
 	char *s;
 
-	for (i = 0; i < argc; i++)
+	for (i = 1; i < argc; i++)
 	{
 		for (s = argv[i]; *s; s++)
 			if (*s > '9' || *s < '0')
