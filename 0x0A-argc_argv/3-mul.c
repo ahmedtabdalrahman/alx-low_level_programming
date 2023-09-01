@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 /**
  * main - prints the sum of two numbers
@@ -11,7 +12,7 @@
 
 int main(int argc, char *argv[])
 {
-	int sum;
+	int mul;
 
 	if (argc != 3)
 	{
@@ -20,8 +21,8 @@ int main(int argc, char *argv[])
 	}
 	else
 	{
-		sum = atoi(argv[1]) * atoi(argv[2]);
-		printf("%d\n", sum);
+		mul = atoi(argv[1]) * atoi(argv[2]);
+		printf("%d\n", mul);
 	}
 	return (0);
 }
