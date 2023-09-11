@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
- * free_dog - print
+ * free_dog - frees dogs
  *
  * @d : function input
  *
