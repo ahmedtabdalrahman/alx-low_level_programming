@@ -1,9 +1,20 @@
-#include <string.h>
+#include "main.h"
 
-int _putchar(char c);
+/**
+ * _puts_recursion - function that prints a string
+ *
+ * @s: function input
+ *
+ * Return: a string
+ */
+
 void _puts_recursion(char *s)
 {
-	if (strlen(s) == 0)
-		return;
-	return (_putchar(s) + _putchar(s + 1));
+	if (*s == '\0')
+		_putchar('\0');
+	else
+	{
+		_putchar(*s);
+		_putchar(s + 1);
+	}
 }
