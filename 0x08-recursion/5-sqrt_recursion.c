@@ -3,6 +3,7 @@
 /**
  * _sqrt_recursion - function that returns the natural square root of a number.
  *
+ * @x: function input
  * @n: function input
  *
  * Return: the natural square root of a number.
